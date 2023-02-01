@@ -19,7 +19,12 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: () => import('../views/ProjectsView')
-  }
+  },
+  {
+    path: '/cv',
+    name: 'CV',
+    component: () => import('../views/CvView')
+  },
 ]
 
 const router = createRouter({

@@ -23,16 +23,16 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  height: 83vh;
 }
 .home h1, .home h2 {
   margin: .2rem 0;
 }
 #flowers {
-  width: 50vw;
+  width: 47vw;
 }
 hr {
-  width: 100%;
+  width: 80%;
   margin-top: -1px;
   border: .5px solid #98A589;
 }

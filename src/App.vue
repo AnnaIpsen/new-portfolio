@@ -1,8 +1,15 @@
 <template>
   <nav>
-    <router-link to="/"><img src="./assets/logo.png"></router-link>
-    <router-link to="/about">About me</router-link>
-    <router-link to="/projects">Projects</router-link>
+    <section class="links">
+      <router-link to="/"><img src="./assets/logo.png"></router-link>
+      <router-link to="/about">About me</router-link>
+      <router-link to="/projects">Projects</router-link>
+      <router-link to="/cv">CV</router-link>
+    </section>
+    <section class="logos">
+      <img src="./assets/linkedin-logo.png">
+      <img src="./assets/github-logo.png">
+    </section>
   </nav>
   <router-view/>
 </template>
@@ -18,7 +25,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #98A589;
-  margin: 2rem 4rem;
+  margin: 4rem 4rem 4rem 17rem;
 }
 
 h1, h2, h3, h4, nav {
@@ -29,32 +36,58 @@ h1, h2 {
   font-weight: 400;
   letter-spacing: .3rem;
 }
-h1 {font-size: 30px;}
+h1 {font-size: 35px;}
 h2 {font-size: 16px;}
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  line-height: 200%;
+  color: #2D3228;
 }
 
 nav {
+  width: fit-content;
+  height: 85%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  overflow-x: hidden;
+  padding: 4rem;
+  background-color: #FBF6EF;
+}
+.links {
+  display: flex;
+  flex-direction: column;
   gap: 4rem;
 }
-
-nav img {
-  height: 2rem;
+ .links img {
+  width: 4rem;
 }
 
-nav a {
+.links a {
   font-weight: 500;
   color: #98A589;
   text-decoration: none;
   text-transform: uppercase;
+  padding-bottom: .5rem;
 }
 
 nav a:nth-child(n+2).router-link-exact-active {
   border-bottom: #98A589 solid 1px;
 }
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.logos img {
+  height: 2rem;
+  width: auto;
+}
+
 </style>
