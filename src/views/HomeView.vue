@@ -29,7 +29,7 @@ export default {
   margin: .2rem 0;
 }
 #flowers {
-  width: 47vw;
+  width: 50vw;
 }
 hr {
   width: 80%;

@@ -42,7 +42,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   line-height: 200%;
-  color: #2D3228;
+  color: #2E2E2E;
 }
 
 nav {
