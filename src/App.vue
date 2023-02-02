@@ -37,7 +37,7 @@ h1, h2 {
   letter-spacing: .3rem;
 }
 h1 {font-size: 35px;}
-h2 {font-size: 16px;}
+h2, a {font-size: 16px;}
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
