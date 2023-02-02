@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknew_portfolio"]=self["webpackChunknew_portfolio"]||[]).push([[228],{4228:function(n,e,r){r.r(e),r.d(e,{default:function(){return f}});var t=r(3396);function o(n,e,r,o,u,i){return(0,t.wg)(),(0,t.iD)("section")}var u={name:"CvView"},i=r(89);const c=(0,i.Z)(u,[["render",o]]);var f=c}}]);
+//# sourceMappingURL=228.22092f83.js.map
