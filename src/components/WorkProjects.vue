@@ -3,12 +3,36 @@
     <section class="headings">
       <h1>Work projects</h1>
     </section>
+    <section class="projects">
+      <project-card
+          v-for="(project, index) in projectsArray"
+          :key="index"
+          :projectName = "project.name"
+          :projectDescription = "project.description"
+          :img = "project.img"
+          :gitHubUrl = "project.gitHub"
+          :demoUrl = "project.demo"
+          :reversePosition = "Boolean(index % 2)"
+      ></project-card>
+    </section>
   </div>
 </template>
 
 <script>
+import projectCard from "@/components/ProjectCard";
+import projects from "../content/projects.json"
 export default {
-  name: "WorkProjects"
+  name: "WorkProjects",
+  components: {projectCard},
+  data() {
+    return {
+      projectsArray: projects.projects,
+    }
+  },
+  methods: {
+
+    },
+
 }
 </script>
 

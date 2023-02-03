@@ -28,16 +28,17 @@ body {
   margin: 4rem 4rem 4rem 17rem;
 }
 
-h1, h2, h3, h4, nav {
+h1, h2, h3, h4, nav, button {
   font-family: "Playfair Display", sans-serif;
   text-transform: uppercase;
 }
-h1, h2 {
+h1, h2, button {
   font-weight: 400;
   letter-spacing: .3rem;
 }
 h1 {font-size: 35px;}
 h2, a {font-size: 16px;}
+button {font-size: 12px;}
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;

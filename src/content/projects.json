@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "name": "Kold Festival",
+      "description": "Cras non metus eget elit ornare ultricies. Praesent porta tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus ante odio. Aliquam vestibulum ipsum ut nulla pulvinar pharetra. Vivamus gravida lorem ac orci mattis imperdiet. Fusce odio lectus, rhoncus vel metus vitae, tempus congue purus. Ut finibus ipsum sit amet euismod sagittis. Suspendisse velit nunc, rhoncus sed feugiat quis, volutpat nec sem.",
+      "gitHub": "https://github.com/MrKraack/KoldFestivalGruppe1",
+      "demo": "https://kold-festival-firebase.firebaseapp.com/",
+      "img": "koldfestival.png"
+    },
+     {
+      "name": "Weather App",
+      "description": "Cras non metus eget elit ornare ultricies. Praesent porta tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus ante odio. Aliquam vestibulum ipsum ut nulla pulvinar pharetra. Vivamus gravida lorem ac orci mattis imperdiet. Fusce odio lectus, rhoncus vel metus vitae, tempus congue purus. Ut finibus ipsum sit amet euismod sagittis. Suspendisse velit nunc, rhoncus sed feugiat quis, volutpat nec sem.",
+      "gitHub": "https://github.com/arturpilarek/weather-app-ama",
+      "demo": "https://arturpilarek.github.io/weather-app-ama/",
+      "img": "weatherapp.png"
+    }
+  ]
+}
