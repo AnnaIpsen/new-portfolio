@@ -25,7 +25,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #98A589;
-  margin: 4rem 4rem 4rem 17rem;
+  margin: 4rem 17rem 4rem 4rem;
 }
 
 h1, h2, h3, h4, nav, button {
@@ -54,7 +54,7 @@ nav {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 2;
   overflow-x: hidden;
   padding: 4rem;
