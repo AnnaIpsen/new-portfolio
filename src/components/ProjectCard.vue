@@ -28,7 +28,6 @@ export default {
       window.open(url, '_blank');
     },
     resolvePath(file) {
-      console.log(this.reversePosition)
       return require(`@/assets/work-project-images/${file}`)
     }
   }
@@ -71,4 +70,5 @@ export default {
   color: #FBF6EF;
   cursor: pointer;
 }
+
 </style>
