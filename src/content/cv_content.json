@@ -13,34 +13,39 @@
   ],
   "work": [
     {
-      "name": "Internship - frontend developer",
-      "where": "Pensopay A/S",
-      "when": "January 2022 - april 2022",
-      "city": "Vejle"
+      "name": "Internship - Frontend developer",
+      "company": "Pensopay A/S",
+      "when": "January 2022 - April 2022",
+      "where": "Vejle"
     },
     {
-      "name": "teaching assistant",
-      "where": "Daginstitutionen Havnely",
+      "name": "Teaching Assistant",
+      "company": "Daginstitutionen Havnely",
       "when": "June 2017 - January 2019",
-      "city": "Vejle"
+      "where": "Vejle"
     },
     {
-      "name": "Waitress / host",
-      "where": "Steakeriet (Earlier known as Spisegalleriet)",
+      "name": "Waitress / Host",
+      "company": "Steakeriet (Earlier known as Spisegalleriet)",
       "when": "June 2014 - March 2018",
-      "city": "Vejle"
+      "where": "Vejle"
     }
   ],
   "volunteering": [
     {
-      "name": "study council",
+      "name": "Study Council",
       "where": "IBA Kolding",
       "when": "August 2022 - "
     },
     {
-      "name": "study council",
-      "where": "UCN aalborg",
-      "when": "september 2020 - july 2022"
+      "name": "Tutor",
+      "where": "UCN Aalborg",
+      "when": "September 2021 - October 2021"
+    },
+    {
+      "name": "Study Council",
+      "where": "UCN Aalborg",
+      "when": "September 2020 - July 2022"
     }
   ],
   "skills": [
