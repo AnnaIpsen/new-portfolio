@@ -1,0 +1,103 @@
+{
+  "education": [
+    {
+      "name": "PBA in Webdevlopment",
+      "when": "August 2022 - ",
+      "where": "Kolding"
+    },
+    {
+      "name": "Multimediadesign",
+      "when": "September 2020 - July 2022",
+      "where": "Aalborg"
+    }
+  ],
+  "work": [
+    {
+      "name": "Internship - frontend developer",
+      "where": "Pensopay A/S",
+      "when": "January 2022 - april 2022",
+      "city": "Vejle"
+    },
+    {
+      "name": "teaching assistant",
+      "where": "Daginstitutionen Havnely",
+      "when": "June 2017 - January 2019",
+      "city": "Vejle"
+    },
+    {
+      "name": "Waitress / host",
+      "where": "Steakeriet (Earlier known as Spisegalleriet)",
+      "when": "June 2014 - March 2018",
+      "city": "Vejle"
+    }
+  ],
+  "volunteering": [
+    {
+      "name": "study council",
+      "where": "IBA Kolding",
+      "when": "August 2022 - "
+    },
+    {
+      "name": "study council",
+      "where": "UCN aalborg",
+      "when": "september 2020 - july 2022"
+    }
+  ],
+  "skills": [
+    {
+      "skill": "HTML",
+      "level": 4
+    },
+    {
+      "skill": "CSS",
+      "level": 4
+    },
+    {
+      "skill": "SCSS",
+      "level": 3
+    },
+    {
+      "skill": "JavaScript",
+      "level": 3
+    },
+    {
+      "skill": "TypeScript",
+      "level": 1
+    },
+    {
+      "skill": "Vue.js",
+      "level": 3
+    },
+    {
+      "skill": "UX/UI Design",
+      "level": 3
+    }
+  ],
+  "language": [
+    {
+      "name": "Danish",
+      "Comment": "Native language",
+      "level": 5
+    },
+    {
+      "name": "English",
+      "level": 4
+    },
+    {
+      "name": "French",
+      "level": 2
+    },
+    {
+      "name": "German",
+      "level": 2
+    }
+  ],
+  "tech": [
+    "Adobe Illustrator",
+    "Figma",
+    "Microsoft Office",
+    "GitHub",
+    "Webstorm",
+    "Visual Studio Code"
+  ]
+}
