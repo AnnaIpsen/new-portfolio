@@ -36,9 +36,6 @@
               :where="job.where"
           />
         </div>
-      </section>
-      <section class="row">
-        <img src="../assets/Anna-Ipsen-cv.jpg">
         <div class="tech">
           <h2>Technologies</h2>
           <div class="techWrapper">
@@ -49,6 +46,29 @@
               {{ tech }}
             </p>
           </div>
+        </div>
+      </section>
+      <section class="row">
+          <img src="../assets/Anna-Ipsen-cv.jpg">
+        <div>
+          <h2>Languages</h2>
+          <skills-component
+              v-for="(language, index) in languages"
+              :key="index"
+              :name="language.name"
+              :level="language.level"
+              :comment="language.comment"
+          />
+        </div>
+
+        <div>
+          <h2>Skills</h2>
+          <skills-component
+              v-for="(skill, index) in skills"
+              :key="index"
+              :name="skill.name"
+              :level="skill.level"
+          />
         </div>
 
       </section>
@@ -62,9 +82,10 @@
 <script>
 import cv from "../content/cv_content.json"
 import CvComponent from "@/components/CvComponent";
+import SkillsComponent from '@/components/CvSkills'
 export default {
   name: "CvView",
-  components: {CvComponent},
+  components: {CvComponent, SkillsComponent},
   data () {
     return {
       educations: cv.education,

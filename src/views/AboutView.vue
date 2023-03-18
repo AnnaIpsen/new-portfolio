@@ -2,7 +2,7 @@
   <div class="about">
     <section class="headings">
       <h1>About me</h1>
-      <h2>And why you should hire me</h2>
+      <h3>And why you should hire me</h3>
     </section>
     <section class="aboutSection">
       <article>

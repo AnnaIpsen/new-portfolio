@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <h1>Anna Ipsen</h1>
-    <h2>creative frontend developer</h2>
-    <img id="flowers" src="../assets/blomsterPng.png">
+    <h3>creative frontend developer</h3>
+        <img id="flowers" src="../assets/blomsterPng.png">
     <hr/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 
 export default {
   name: 'HomeView',
   components: {
+
   }
 }
 </script>
@@ -23,7 +23,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 83vh;
+  height: 83%;
 }
 .home h1, .home h2 {
   margin: .2rem 0;
