@@ -32,12 +32,13 @@ h1, h2, h3, h4, nav, button {
   font-family: "Playfair Display", sans-serif;
   text-transform: uppercase;
 }
-h1, h2, button {
+h1, h2, h3, button {
   font-weight: 400;
   letter-spacing: .3rem;
 }
 h1 {font-size: 35px;}
-h2, a {font-size: 16px;}
+h2 {font-size: 22px;}
+h3, a {font-size: 16px;}
 button {font-size: 12px;}
 p {
   font-family: 'Montserrat', sans-serif;

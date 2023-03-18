@@ -50,38 +50,38 @@
   ],
   "skills": [
     {
-      "skill": "HTML",
+      "name": "HTML",
       "level": 4
     },
     {
-      "skill": "CSS",
+      "name": "CSS",
       "level": 4
     },
     {
-      "skill": "SCSS",
+      "name": "SCSS",
       "level": 3
     },
     {
-      "skill": "JavaScript",
+      "name": "JavaScript",
       "level": 3
     },
     {
-      "skill": "TypeScript",
+      "name": "TypeScript",
       "level": 1
     },
     {
-      "skill": "Vue.js",
+      "name": "Vue.js",
       "level": 3
     },
     {
-      "skill": "UX/UI Design",
+      "name": "UX/UI Design",
       "level": 3
     }
   ],
   "language": [
     {
       "name": "Danish",
-      "Comment": "Native language",
+      "comment": "Native language",
       "level": 5
     },
     {
