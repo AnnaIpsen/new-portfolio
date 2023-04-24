@@ -6,41 +6,47 @@
     </section>
     <div class="collage">
       <section class="column">
-        <img src="../assets/project-images/moontart.jpg">
-        <img src="../assets/project-images/nz.jpg" >
-        <img src="../assets/project-images/citron.png">
-        <img src="../assets/project-images/hue.jpg" >
-        <img src="../assets/project-images/water.jpg" >
-        <img src="../assets/project-images/gul-kage.jpg">
-        <img src="../assets/project-images/paris.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/moontart.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/nz.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/citron.png">
+        <img data-aos="fade-up" src="../assets/project-images/flasker.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/hue.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/water.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/gul-kage.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/paris.jpg">
 
       </section>
       <section class="column">
-        <img src="../assets/project-images/hortensia.jpg" >
-        <img src="../assets/project-images/kage.png" >
-        <img src="../assets/project-images/nissehue.jpg" >
-        <img src="../assets/project-images/vin.png">
-        <img src="../assets/project-images/minitaerte.jpg" >
-        <img src="../assets/project-images/croissant.png">
+        <img data-aos="fade-up" src="../assets/project-images/hortensia.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/kage.png" >
+        <img data-aos="fade-up" src="../assets/project-images/solnedgang.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/nissehue.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/amsterdam.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/vin.png">
+        <img data-aos="fade-up" src="../assets/project-images/minitaerte.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/croissant.png">
 
       </section>
       <section class="column">
-        <img src="../assets/project-images/bryllupskage.jpg" >
-        <img src="../assets/project-images/grapes.jpg" >
-        <img src="../assets/project-images/generationer.png" >
-        <img src="../assets/project-images/halsedisse.jpg">
-        <img src="../assets/project-images/vejle.jpg" >
-        <img src="../assets/project-images/pildskadde.png" >
-        <img src="../assets/project-images/taerte.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/bryllupskage.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/grapes.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/generationer.png" >
+        <img data-aos="fade-up" src="../assets/project-images/halsedisse.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/vejle.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/cykel.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/pildskadde.png" >
+        <img data-aos="fade-up" src="../assets/project-images/taerte.jpg">
       </section>
     </div>
   </section>
 </template>
 
 <script>
+
+
 export default {
   name: 'hobbyProjects',
-  methods: {}
+
 }
 </script>
 
