@@ -2,11 +2,13 @@
   "education": [
     {
       "name": "PBA in Webdevlopment",
+      "school": "IBA Erhvervsakademi",
       "when": "August 2022 - ",
       "where": "Kolding"
     },
     {
       "name": "Multimediadesign",
+      "school": "University College Nordjylland",
       "when": "September 2020 - July 2022",
       "where": "Aalborg"
     }
@@ -34,17 +36,20 @@
   "volunteering": [
     {
       "name": "Study Council",
-      "where": "IBA Kolding",
+      "school": "IBA Erhvervsakademi",
+      "where": "Kolding",
       "when": "August 2022 - "
     },
     {
       "name": "Tutor",
-      "where": "UCN Aalborg",
+      "school": "University College Nordjylland",
+      "where": "Aalborg",
       "when": "September 2021 - October 2021"
     },
     {
       "name": "Study Council",
-      "where": "UCN Aalborg",
+      "school": "University College Nordjylland",
+      "where": "Aalborg",
       "when": "September 2020 - July 2022"
     }
   ],
@@ -102,7 +107,9 @@
     "Figma",
     "Microsoft Office",
     "GitHub",
+    "Visual Studio Code",
     "Webstorm",
-    "Visual Studio Code"
+    "Sanity.io",
+    "Postman"
   ]
 }

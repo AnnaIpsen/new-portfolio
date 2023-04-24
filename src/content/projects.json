@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "name": "Vejle Jiu Jitsu Klub",
+      "description": "",
+      "demo": "https://www.figma.com/proto/qYFbqwZWbIe11eGNSkufO7/jiu-jitsu-klub?page-id=462%3A2&node-id=513-536&viewport=2520%2C-1766%2C0.5&scaling=scale-down",
+      "img": "vjjk.png"
+    },
+    {
       "name": "Kold Festival",
       "description": "",
       "gitHub": "https://github.com/MrKraack/KoldFestivalGruppe1",

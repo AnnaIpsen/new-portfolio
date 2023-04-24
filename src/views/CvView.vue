@@ -11,6 +11,7 @@
               v-for="(education, index) in educations"
               :key="index"
               :name="education.name"
+              :company= "education.school"
               :when="education.when"
               :where="education.where"
           />
@@ -32,20 +33,10 @@
               v-for="(job, index) in volunteerings"
               :key="index"
               :name="job.name"
+              :company= "job.school"
               :when="job.when"
               :where="job.where"
           />
-        </div>
-        <div class="tech">
-          <h2>Technologies</h2>
-          <div class="techWrapper">
-            <p
-                v-for="(tech, index) in techs"
-                :key ="index"
-            >
-              {{ tech }}
-            </p>
-          </div>
         </div>
       </section>
       <section class="row">
@@ -69,6 +60,17 @@
               :name="skill.name"
               :level="skill.level"
           />
+        </div>
+        <div class="tech">
+          <h2>Technologies</h2>
+          <div class="techWrapper">
+            <p
+                v-for="(tech, index) in techs"
+                :key ="index"
+            >
+              {{ tech }}
+            </p>
+          </div>
         </div>
 
       </section>
@@ -135,7 +137,8 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  column-gap: 8px;
 }
 .techWrapper p {width: 8rem}
 
