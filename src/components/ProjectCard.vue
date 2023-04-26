@@ -4,7 +4,7 @@
       <h2>{{ projectName }}</h2>
       <p> {{ projectDescription }}</p>
       <div class="buttons">
-        <button @click="openUrl(this.gitHubUrl)">Code</button>
+        <button v-if="gitHubUrl" @click="openUrl(this.gitHubUrl)">Code</button>
         <button v-if="demoUrl" @click="openUrl(this.demoUrl)">Demo</button>
       </div>
     </section>
@@ -13,6 +13,7 @@
 </template>
 
 <script>
+
 export default {
   name: "ProjectCard",
   props: {
@@ -44,15 +45,16 @@ export default {
 }
 .reverse {
   flex-direction: row-reverse !important;
+  justify-content: flex-end;
 }
 
 .card section h2 {
   margin-top: 0;
 }
 .card img {
-  width: 600px;
-  height: 300px;
-  object-fit: cover;
+  width: 500px;
+  height: auto;
+  object-fit: cover ;
   border-radius: 20px;
 }
 .buttons {
