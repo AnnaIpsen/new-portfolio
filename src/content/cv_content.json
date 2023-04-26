@@ -4,13 +4,15 @@
       "name": "PBA in Webdevlopment",
       "school": "IBA Erhvervsakademi",
       "when": "August 2022 - ",
-      "where": "Kolding"
+      "where": "Kolding",
+      "subjects": ["User Experience", "Data Integration", "Data Security", "Web Programming", "Development Environments", "JavaScript" ]
     },
     {
       "name": "Multimediadesign",
       "school": "University College Nordjylland",
       "when": "September 2020 - July 2022",
-      "where": "Aalborg"
+      "where": "Aalborg",
+      "subjects": ["Business", "Communication & Presentation", "Design & Visualisation", "Interaction development", "Web API Development"]
     }
   ],
   "work": [

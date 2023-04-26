@@ -14,6 +14,7 @@
               :company= "education.school"
               :when="education.when"
               :where="education.where"
+              :subjects="education.subjects"
           />
         </div>
         <div class="work">
@@ -120,7 +121,7 @@ export default {
   flex-direction: column;
   gap: 4rem;
 }
-.education, .volunteering, .work {width: 25rem}
+.education, .volunteering, .work {width: 30rem}
 .tech, img {width: 25rem}
 .headings {
   display: flex;
