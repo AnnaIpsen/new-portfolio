@@ -5,14 +5,27 @@
       "school": "IBA Erhvervsakademi",
       "when": "August 2022 - ",
       "where": "Kolding",
-      "subjects": ["User Experience", "Data Integration", "Data Security", "Web Programming", "Development Environments", "JavaScript" ]
+      "subjects": [
+        "User Experience",
+        "Data Integration",
+        "Data Security",
+        "Web Programming",
+        "Development Environments",
+        "JavaScript"
+      ]
     },
     {
       "name": "Multimediadesign",
       "school": "University College Nordjylland",
       "when": "September 2020 - July 2022",
       "where": "Aalborg",
-      "subjects": ["Business", "Communication & Presentation", "Design & Visualisation", "Interaction development", "Web API Development"]
+      "subjects": [
+        "Business",
+        "Communication & Presentation",
+        "Design & Visualisation",
+        "Interaction development",
+        "Web API Development"
+      ]
     }
   ],
   "work": [
@@ -20,19 +33,22 @@
       "name": "Internship - Frontend developer",
       "company": "Pensopay A/S",
       "when": "January 2022 - April 2022",
-      "where": "Vejle"
+      "where": "Vejle",
+      "description": "Internship as a part of my education in Multimediadesign. Primarily working with frontend development, coding in Vue.js, with lots of different projects. Further more I worked on a design for a new CRM system"
     },
     {
       "name": "Teaching Assistant",
       "company": "Daginstitutionen Havnely",
       "when": "June 2017 - January 2019",
-      "where": "Vejle"
+      "where": "Vejle",
+      "description": "In my time as a teaching assistant I have been responsible for creative activities for children in a certain age and used my realistic approach to adjust the activities to the individual group"
     },
     {
       "name": "Waitress / Host",
       "company": "Steakeriet (Earlier known as Spisegalleriet)",
       "when": "June 2014 - March 2018",
-      "where": "Vejle"
+      "where": "Vejle",
+      "description": "As a waitress/host a have learned to work with a lot on my plate. On busy nights i had to keep a cool head to concentrate and not make any mistakes. Therefore i have learned to work in busy environments without it disturbing my efficiency and performance"
     }
   ],
   "volunteering": [

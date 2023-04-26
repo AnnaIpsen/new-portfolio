@@ -26,6 +26,7 @@
               :when="work.when"
               :where="work.where"
               :company="work.company"
+              :description="work.description"
           />
         </div>
         <div class="volunteering">
@@ -119,7 +120,7 @@ export default {
 .row {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
 }
 .education, .volunteering, .work {width: 30rem}
 .tech, img {width: 25rem}

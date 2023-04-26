@@ -14,6 +14,11 @@
         {{subject}}
       </p>
     </section>
+    <section v-if="description" class="subjects">
+      <p>
+        {{description}}
+      </p>
+    </section>
   </div>
 </template>
 
@@ -25,7 +30,8 @@ export default {
     where: String,
     when: String,
     company: String,
-    subjects: Array
+    subjects: Array,
+    description: String
   }
 }
 </script>
@@ -39,7 +45,7 @@ export default {
     justify-content: space-between;
     margin-bottom: .5rem;
     .cv_heading {
-      font-size: 14px;
+      font-size: 15px;
       font-family: 'Montserrat', sans-serif;
       color: #2E2E2E;
       margin-bottom: 4px;
