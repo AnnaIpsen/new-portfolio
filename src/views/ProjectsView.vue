@@ -7,18 +7,22 @@
     <hobby-projects v-show="hobby"/>
     <work-projects v-show="work"/>
   </div>
+  <loadingComponent v-if="isLoading"/>
 </template>
 
 <script>
 import hobbyProjects from "@/components/HobbyProjects";
 import workProjects from "@/components/WorkProjects";
+import loadingComponent from "@/components/loadingComponent";
+
 export default {
   name: "ProjectsView",
-  components: { hobbyProjects, workProjects },
+  components: { hobbyProjects, workProjects, loadingComponent },
   data () {
     return {
       hobby: false,
       work: true,
+      isLoading: true,
     }
   },
   methods: {
@@ -30,6 +34,9 @@ export default {
       this.work = true
       this.hobby = false
     }
+  },
+  mounted() {
+    this.isLoading = false
   }
 }
 </script>

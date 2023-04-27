@@ -2,17 +2,28 @@
   <div class="home">
     <h1>Anna Ipsen</h1>
     <h3>creative frontend developer</h3>
-        <img id="flowers" src="../assets/blomsterPng.png">
+        <flowersSvg id="flowers"/>
     <hr/>
   </div>
+  <loadingComponent v-if="isLoading"/>
 </template>
 
 <script>
-
+import loadingComponent from "@/components/loadingComponent";
+import flowersSvg from "@/components/flowersSvg";
 export default {
   name: 'HomeView',
   components: {
-
+    loadingComponent,
+    flowersSvg
+  },
+  data () {
+    return {
+      isLoading: true
+    }
+  },
+  mounted() {
+    this.isLoading = false
   }
 }
 </script>

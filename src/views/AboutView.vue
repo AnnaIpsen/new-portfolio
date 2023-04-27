@@ -1,4 +1,6 @@
 <template>
+  <loadingComponent v-if="isLoading"/>
+
   <div class="about">
     <section class="headings">
       <h1>About me</h1>
@@ -23,6 +25,24 @@
     </section>
   </div>
 </template>
+
+<script>
+import loadingComponent from "@/components/loadingComponent";
+export default {
+  name: 'AboutView',
+  components: {
+    loadingComponent
+  },
+  data () {
+    return {
+      isLoading: true
+    }
+  },
+  mounted() {
+    this.isLoading = false
+  }
+}
+</script>
 
 <style scoped>
 .about {

@@ -1,4 +1,6 @@
 <template>
+  <loadingComponent v-if="isLoading"/>
+
   <div class="cv">
     <section class="headings">
       <h1>CV</h1>
@@ -87,9 +89,11 @@
 import cv from "../content/cv_content.json"
 import CvComponent from "@/components/CvComponent";
 import SkillsComponent from '@/components/CvSkills'
+import loadingComponent from "@/components/loadingComponent";
+
 export default {
   name: "CvView",
-  components: {CvComponent, SkillsComponent},
+  components: {CvComponent, SkillsComponent, loadingComponent},
   data () {
     return {
       educations: cv.education,
@@ -98,7 +102,11 @@ export default {
       skills: cv.skills,
       languages: cv.language,
       techs: cv.tech,
+      isLoading: true,
     }
+  },
+  mounted() {
+    this.isLoading = false
   }
 }
 </script>
