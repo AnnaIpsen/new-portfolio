@@ -1,7 +1,7 @@
 <template>
   <nav>
     <section class="links">
-      <router-link to="/"><img src="./assets/logo.png"></router-link>
+      <router-link to="/"><img src="./assets/blomsterlogo.png"></router-link>
       <router-link to="/about">About me</router-link>
       <router-link to="/projects">Projects</router-link>
       <router-link to="/cv">CV</router-link>
@@ -13,6 +13,12 @@
   </nav>
   <router-view/>
 </template>
+
+<script>
+
+export default {
+}
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -67,7 +73,7 @@ nav {
   gap: 4rem;
 }
  .links img {
-  width: 4rem;
+  width: 10rem;
 }
 
 .links a {

@@ -41,11 +41,12 @@ export default {
 }
 #flowers {
   width: 50vw;
+  margin-top: 1rem;
 }
 hr {
   width: 80%;
   margin-top: -1px;
-  border: .5px solid #98A589;
+  border: 1px solid #98A589;
 }
 
 </style>

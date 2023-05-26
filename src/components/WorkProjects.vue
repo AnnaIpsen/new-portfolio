@@ -5,6 +5,7 @@
     </section>
     <section class="projects">
       <project-card
+          data-aos="fade-up"
           v-for="(project, index) in projectsArray"
           :key="index"
           :projectName = "project.name"
@@ -20,7 +21,9 @@
 
 <script>
 import projectCard from "@/components/ProjectCard";
-import projects from "../content/projects.json"
+import projects from "../content/projects.json";
+
+
 export default {
   name: "WorkProjects",
   components: {projectCard},
@@ -29,9 +32,6 @@ export default {
       projectsArray: projects.projects,
     }
   },
-  methods: {
-
-    },
 
 }
 </script>
