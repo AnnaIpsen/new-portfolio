@@ -31,7 +31,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #98A589;
-  margin: 4rem 17rem 4rem 4rem;
+  margin: 4rem 19rem 4rem 4rem;
 }
 
 h1, h2, h3, h4, nav, button {
