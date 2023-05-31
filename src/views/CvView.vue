@@ -51,7 +51,7 @@
               v-for="(language, index) in languages"
               :key="index"
               :name="language.name"
-              :level="language.level"
+              :levels="language.level"
               :comment="language.comment"
           />
         </div>
@@ -62,7 +62,7 @@
               v-for="(skill, index) in skills"
               :key="index"
               :name="skill.name"
-              :level="skill.level"
+              :levels="skill.level"
           />
         </div>
         <div class="tech">

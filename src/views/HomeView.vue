@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <h1>Anna Ipsen</h1>
-    <h3>creative frontend developer</h3>
+    <h1 data-aos="fade-up" data-aos-duration="2000">Anna Ipsen</h1>
+    <h3 data-aos="fade-up" data-aos-duration="2000">creative frontend developer</h3>
         <flowersSvg id="flowers"/>
     <hr/>
   </div>

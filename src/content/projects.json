@@ -15,14 +15,14 @@
     },
      {
       "name": "Weather App",
-      "description": "",
+      "description": "School project",
       "gitHub": "https://github.com/arturpilarek/weather-app-ama",
       "demo": "https://arturpilarek.github.io/weather-app-ama/",
       "img": "weatherapp.png"
     },
     {
       "name": "NPM package CVR API",
-      "description": "Simple npm package to get data from de danish cvr register. It contains functions to search by company number, name, phone number and by free search",
+      "description": "Simple npm package to get data from de danish cvr register. It contains functions to search by company number, name, phone number and by free search. This has been tested with unit testing",
       "gitHub": "https://github.com/AnnaIpsen/NPM-package-CVR",
       "img": "cvr.png"
     }

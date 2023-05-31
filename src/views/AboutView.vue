@@ -9,16 +9,34 @@
     <section class="aboutSection">
       <article>
         <p>
-          Cras non metus eget elit ornare ultricies. Praesent porta tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus ante odio. Aliquam vestibulum ipsum ut nulla pulvinar pharetra. Vivamus gravida lorem ac orci mattis imperdiet. Fusce odio lectus, rhoncus vel metus vitae, tempus congue purus. Ut finibus ipsum sit amet euismod sagittis. Suspendisse velit nunc, rhoncus sed feugiat quis, volutpat nec sem.
+          I’m 27 year old creative frontend developer. I am not only interested in the technical aspect, but also in
+          making a design seem alive and create a good experience.  My great passion is to make a connection between
+          the creativity and frontend developing.  I feel the best when I can use my flair for digital aesthetics and
+          combine it with code. So whenever I make a new application, I do it  with a lot of thought on the design
+          as well as the technical aspect.
         </p>
         <p>
-          Cras non metus eget elit ornare ultricies. Praesent porta tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus ante odio. Aliquam vestibulum ipsum ut nulla pulvinar pharetra. Vivamus gravida lorem ac orci mattis imperdiet. Fusce odio lectus, rhoncus vel metus vitae, tempus congue purus. Ut finibus ipsum sit amet euismod sagittis. Suspendisse velit nunc, rhoncus sed feugiat quis, volutpat nec sem.
+          When I develop it is with focus on making the code as readable as possible - that makes it easier for me
+          and others. But I also do it with an approach on clean coding, where I always try to make it as simple
+          as possible to reach the best possible performance and to avoid any noice.
         </p>
         <p>
-          Cras non metus eget elit ornare ultricies. Praesent porta tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus ante odio. Aliquam vestibulum ipsum ut nulla pulvinar pharetra. Vivamus gravida lorem ac orci mattis imperdiet. Fusce odio lectus, rhoncus vel metus vitae, tempus congue purus. Ut finibus ipsum sit amet euismod sagittis. Suspendisse velit nunc, rhoncus sed feugiat quis, volutpat nec sem.
+          My fellow students describe me as well liked, helpful and a good sparring partner. This is qualities that
+          i’m happy to give to my surroundings. Especially sparring is an important part for me, as I believe that
+          everyone can learn something from one another.
         </p>
         <p>
-          Cras non metus eget elit ornare ultricies. Praesent porta tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus ante odio. Aliquam vestibulum ipsum ut nulla pulvinar pharetra. Vivamus gravida lorem ac orci mattis imperdiet. Fusce odio lectus, rhoncus vel metus vitae, tempus congue purus. Ut finibus ipsum sit amet euismod sagittis. Suspendisse velit nunc, rhoncus sed feugiat quis, volutpat nec sem.
+          Whenever i’m not developing i like to do a lot of creative things. Since I was little a have always spent
+          a lot of time in the kitchen and i still bake many cakes for my self but also for different occasions
+          like birthdays and my sisters wedding.
+        </p>
+        <p>
+          I also crochet and knit a lot, mostly for my friends and family's babies, and hats. I love have
+          relaxing it is. But my newest hobby is making posters in Adobe Illustrator and going for a walk
+          with my camera. Exercise and fun at the same time - whats not to like?
+        </p>
+        <p>
+          All my projects (and hobby projects) can be seen at the projects page.
         </p>
       </article>
       <img src="../assets/Anna-Ipsen.jpg">
@@ -64,14 +82,14 @@ export default {
 .aboutSection {
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 4rem;
   align-items: flex-start;
 }
 .aboutSection article p{
   margin-top: 0;
 }
 .aboutSection img {
-  height: 33rem;
+  height: 31rem;
   width: auto;
   border-radius: 20px;
 }

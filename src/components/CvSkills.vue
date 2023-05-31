@@ -5,11 +5,7 @@
       <p v-if="comment" class="comment"> {{comment}}</p>
     </section>
     <div class="cv_heading skillDiv">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div v-for="index in 5" :key="index" :class="getDivClass(index)"></div>
     </div>
   </div>
 </template>
@@ -19,9 +15,18 @@ export default {
   name: "SkillsComponent",
   props: {
     name: String,
-    level: Number,
+    levels: Number,
     comment: String
   },
+  methods: {
+    getDivClass(index) {
+      if (index <= this.levels) {
+        return 'colored-div';
+      } else {
+        return 'uncolored-div';
+      }
+    }
+  }
 }
 </script>
 
@@ -37,11 +42,12 @@ export default {
     flex-direction: row;
     gap: .2rem;
     div {
-      background-color: rgba(125, 136, 113, 0.5);
       height: 1rem;
       width: .5rem;
       border-radius: 2px;
     }
+    .uncolored-div {background-color: rgba(125, 136, 113, 0.5);}
+    .colored-div {background-color: #98A589;}
   }
   .cv_heading {
     font-size: 14px;

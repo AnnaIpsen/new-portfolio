@@ -7,8 +7,8 @@
       <router-link to="/cv">CV</router-link>
     </section>
     <section class="logos">
-      <img src="./assets/linkedin-logo.png">
-      <img src="./assets/github-logo.png">
+      <a href="https://www.linkedin.com/in/anna-ipsen/"><img src="./assets/linkedin-logo.png"></a>
+      <a href="https://github.com/AnnaIpsen"><img src="./assets/github-logo.png"></a>
     </section>
   </nav>
   <router-view/>

@@ -9,9 +9,9 @@
         <img data-aos="fade-up" src="../assets/project-images/moontart.jpg">
         <img data-aos="fade-up" src="../assets/project-images/nz.jpg" >
         <img data-aos="fade-up" src="../assets/project-images/citron.png">
-        <img data-aos="fade-up" src="../assets/project-images/flasker.jpg">
+        <img data-aos="fade-up" src="../assets/project-images/jordbaertærter.jpg">
         <img data-aos="fade-up" src="../assets/project-images/hue.jpg" >
-        <img data-aos="fade-up" src="../assets/project-images/water.jpg" >
+        <img data-aos="fade-up" src="../assets/project-images/flasker.jpg">
         <img data-aos="fade-up" src="../assets/project-images/gul-kage.jpg">
         <img data-aos="fade-up" src="../assets/project-images/paris.jpg">
 
@@ -35,6 +35,7 @@
         <img data-aos="fade-up" src="../assets/project-images/vejle.jpg" >
         <img data-aos="fade-up" src="../assets/project-images/cykel.jpg">
         <img data-aos="fade-up" src="../assets/project-images/pildskadde.png" >
+        <img data-aos="fade-up" src="../assets/project-images/water.jpg" >
         <img data-aos="fade-up" src="../assets/project-images/taerte.jpg">
       </section>
     </div>
