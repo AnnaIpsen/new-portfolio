@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <h1 data-aos="fade-up" data-aos-duration="2000">Anna Ipsen</h1>
-    <h3 data-aos="fade-up" data-aos-duration="2000">creative frontend developer</h3>
-        <flowersSvg id="flowers"/>
+  <div class="home" data-aos="fade-up" data-aos-duration="2000">
+    <h1>Anna Ipsen</h1>
+    <h3 >creative frontend developer</h3>
+    <flowersSvg id="flowers"/>
     <hr/>
   </div>
   <loadingComponent v-if="isLoading"/>
@@ -11,6 +11,7 @@
 <script>
 import loadingComponent from "@/components/loadingComponent";
 import flowersSvg from "@/components/flowersSvg";
+import AOS from "aos"
 export default {
   name: 'HomeView',
   components: {
@@ -24,6 +25,7 @@ export default {
   },
   mounted() {
     this.isLoading = false
+    AOS.init()
   }
 }
 </script>

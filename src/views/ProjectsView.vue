@@ -1,23 +1,20 @@
 <template>
   <div>
       <section class="projectsNav">
-        <a @click="workProjectView" :class="{ active: work }">Work projects</a>
-        <a @click="hobbyProjectView" :class="{ active: hobby }">Hobby projects</a>
+        <router-link to="/projects/work">Work projects</router-link>
+        <router-link to="/projects/hobby">Hobby projects</router-link>
       </section>
-    <hobby-projects v-show="hobby"/>
-    <work-projects v-show="work"/>
   </div>
+  <router-view></router-view>
   <loadingComponent v-if="isLoading"/>
 </template>
 
 <script>
-import hobbyProjects from "@/components/HobbyProjects";
-import workProjects from "@/components/WorkProjects";
 import loadingComponent from "@/components/loadingComponent";
 
 export default {
   name: "ProjectsView",
-  components: { hobbyProjects, workProjects, loadingComponent },
+  components: {  loadingComponent },
   data () {
     return {
       hobby: false,
@@ -26,14 +23,7 @@ export default {
     }
   },
   methods: {
-    hobbyProjectView () {
-      this.hobby = true
-      this.work = false
-    },
-    workProjectView () {
-      this.work = true
-      this.hobby = false
-    }
+
   },
   mounted() {
     this.isLoading = false
@@ -58,7 +48,7 @@ export default {
   cursor: pointer;
 }
 
-.projectsNav .active {
+.projectsNav a.router-link-exact-active {
   border-bottom: #98A589 solid 2px;
 }
 </style>

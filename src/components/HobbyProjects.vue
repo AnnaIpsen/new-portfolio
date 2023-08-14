@@ -43,10 +43,12 @@
 </template>
 
 <script>
-
-
+import AOS from "aos"
 export default {
   name: 'hobbyProjects',
+  mounted() {
+    AOS.init()
+  }
 
 }
 </script>

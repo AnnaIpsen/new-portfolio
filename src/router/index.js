@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView'
 import ProjectsView from "../views/ProjectsView";
 import CvView from "@/views/CvView";
+import WorkProjects from "@/components/WorkProjects";
+import HobbyProjects from "@/components/HobbyProjects";
 
 const routes = [
   {
@@ -18,7 +20,16 @@ const routes = [
   {
     path: '/projects',
     name: 'Projects',
-    component: ProjectsView
+    redirect:'/projects/work',
+    component: ProjectsView,
+    children: [{
+      path: '/projects/work',
+      component: WorkProjects
+      },
+      {
+        path: '/projects//hobby',
+        component: HobbyProjects
+      }]
   },
   {
     path: '/cv',
@@ -33,3 +44,4 @@ const router = createRouter({
 })
 
 export default router
+

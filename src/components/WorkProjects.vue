@@ -22,7 +22,7 @@
 <script>
 import projectCard from "@/components/ProjectCard";
 import projects from "../content/projects.json";
-
+import AOS from "aos"
 
 export default {
   name: "WorkProjects",
@@ -32,6 +32,9 @@ export default {
       projectsArray: projects.projects,
     }
   },
+  mounted() {
+    AOS.init()
+  }
 
 }
 </script>
