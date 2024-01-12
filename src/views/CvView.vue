@@ -44,8 +44,8 @@
         </div>
       </section>
       <section class="row">
-          <img src="../assets/Anna-Ipsen-cv.jpg">
-        <div>
+          <img src="../assets/Anna-Ipsen-cv.jpg" >
+        <div class="skillsDiv">
           <h2>Languages</h2>
           <skills-component
               v-for="(language, index) in languages"
@@ -56,7 +56,7 @@
           />
         </div>
 
-        <div>
+        <div class="skillsDiv">
           <h2>Skills</h2>
           <skills-component
               v-for="(skill, index) in skills"
@@ -123,15 +123,15 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  max-width: 100%;
 }
 .row {
   display: flex;
+  max-width: 40%;
   flex-direction: column;
   gap: 2rem;
 }
-.education, .volunteering, .work {width: 30rem}
-.tech, img {width: 25rem}
+.education, .volunteering, .work, .tech, .skillsDiv  {width: 100%;}
 .headings {
   display: flex;
   flex-direction: column;
@@ -151,5 +151,7 @@ export default {
   column-gap: 8px;
 }
 .techWrapper p {width: 8rem}
+
+img {border-radius: 20px;}
 
 </style>

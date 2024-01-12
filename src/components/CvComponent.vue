@@ -45,10 +45,10 @@ export default {
     justify-content: space-between;
     margin-bottom: .5rem;
     .cv_heading {
-      font-size: 15px;
+      font-size: 16px;
       font-family: 'Montserrat', sans-serif;
-      color: #2E2E2E;
-      margin-bottom: 4px;
+      color: #98A589;
+      margin: 0 0 4px 0;
     }
     .company {margin: 0 0 4px 0;}
     .dateInterval {margin: 0; font-style: italic}

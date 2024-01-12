@@ -6,6 +6,7 @@
     <section class="projects">
       <project-card
           data-aos="fade-up"
+          data-aos-duration="1500"
           v-for="(project, index) in projectsArray"
           :key="index"
           :projectName = "project.name"
@@ -43,7 +44,7 @@ export default {
 .work {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 5rem;
 }
 .headings {
   display: flex;

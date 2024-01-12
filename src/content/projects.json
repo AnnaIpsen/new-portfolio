@@ -1,21 +1,27 @@
 {
   "projects": [
     {
+      "name": "Mindthemedia®",
+      "description": "My bachelorproject in the webdeveloper education, where my internship company provided the case. The task was to create a new website for the company. In this project, I wasn't directly involved in the design but developed the website based on a design provided by the company's designer. I coded in Nuxt 3 with Contentful as the CMS, and TailwindCSS was used for styling. My focus in the bachelor project has been on the interaction between animations and user experience.",
+      "demo": "https://fluffy-chimera-6aaa56.netlify.app/",
+      "img": "mindthemedia.png"
+    },
+    {
       "name": "Vejle Jiu Jitsu Klub",
-      "description": "",
+      "description": "I have worked on a design for Vejle Jiu Jitsu club's website. The focus here has been on making it stand out from other martial arts club websites. Additionally, it should be user-friendly, allowing users to easily access the necessary information they need. The use of images and video has been incorporated to showcase to the user what the club offers and who they are.",
       "demo": "https://www.figma.com/proto/qYFbqwZWbIe11eGNSkufO7/jiu-jitsu-klub?page-id=462%3A2&node-id=513-536&viewport=2520%2C-1766%2C0.5&scaling=scale-down",
       "img": "vjjk.png"
     },
     {
       "name": "Kold Festival",
-      "description": "",
+      "description": "An exam project as part of the webdeveloper education, where a company provided the case. The task was to create a website for a winter festival in Kolding. The target audience for this festival is young people. With my study group, I underwent an entire design process followed by the development of the website. In this project, I participated in designing the app based on user feedback, where we aimed to experiment with colors. Additionally, I also took part in the app development.",
       "gitHub": "https://github.com/MrKraack/KoldFestivalGruppe1",
       "demo": "https://kold-festival-firebase.firebaseapp.com/",
       "img": "koldfestival.png"
     },
      {
       "name": "Weather App",
-      "description": "School project",
+      "description": "A simple weather app that retrieves weather data from an API based on the entered location. This has been created, in collaboration with a group, as part of a project during my webdeveloper education. In this project, I have been involved in designing the app based on user feedback, and I have also participated in the app development.",
       "gitHub": "https://github.com/arturpilarek/weather-app-ama",
       "demo": "https://arturpilarek.github.io/weather-app-ama/",
       "img": "weatherapp.png"

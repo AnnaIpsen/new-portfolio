@@ -17,8 +17,6 @@ export default {
   components: {  loadingComponent },
   data () {
     return {
-      hobby: false,
-      work: true,
       isLoading: true,
     }
   },

@@ -16,11 +16,6 @@
           as well as the technical aspect.
         </p>
         <p>
-          When I develop it is with focus on making the code as readable as possible - that makes it easier for me
-          and others. But I also do it with an approach on clean coding, where I always try to make it as simple
-          as possible to reach the best possible performance and to avoid any noice.
-        </p>
-        <p>
           My fellow students describe me as well liked, helpful and a good sparring partner. This is qualities that
           i’m happy to give to my surroundings. Especially sparring is an important part for me, as I believe that
           everyone can learn something from one another.
@@ -62,35 +57,36 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .about {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-}
-.headings {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  .headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headings h1, .headings h2{
+    margin: .2rem 0;
+  }
+
+  .aboutSection {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: flex-start;
+    article p{
+      margin-top: 0;
+    }
+    img {
+      height: 31rem;
+      width: auto;
+      border-radius: 20px;
+    }
+  }
 }
 
-.headings h1, .headings h2{
-  margin: .2rem 0;
-}
-
-.aboutSection {
-  display: flex;
-  flex-direction: row;
-  gap: 4rem;
-  align-items: flex-start;
-}
-.aboutSection article p{
-  margin-top: 0;
-}
-.aboutSection img {
-  height: 31rem;
-  width: auto;
-  border-radius: 20px;
-}
 </style>

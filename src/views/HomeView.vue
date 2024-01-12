@@ -1,7 +1,7 @@
 <template>
-  <div class="home" data-aos="fade-up" data-aos-duration="2000">
-    <h1>Anna Ipsen</h1>
-    <h3 >creative frontend developer</h3>
+  <div class="home">
+    <h1 data-aos="fade-up" data-aos-duration="1500">Anna Ipsen</h1>
+    <h3 data-aos="fade-up" data-aos-duration="1500">creative frontend developer</h3>
     <flowersSvg id="flowers"/>
     <hr/>
   </div>
@@ -36,13 +36,14 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 83%;
+  height: 90vh;
 }
 .home h1, .home h2 {
   margin: .2rem 0;
 }
 #flowers {
   width: 50vw;
+  height: auto;
   margin-top: 1rem;
 }
 hr {

@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
@@ -31,24 +31,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #98A589;
-  margin: 4rem 19rem 4rem 4rem;
+  margin: 4% 20% 4% 4%;
 }
 
 h1, h2, h3, h4, nav, button {
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   text-transform: uppercase;
 }
 h1, h2, h3, button {
   font-weight: 400;
   letter-spacing: .3rem;
 }
-h1 {font-size: 35px;}
+h1 {font-size: 50px;}
 h2 {font-size: 22px;}
 h3, a {font-size: 16px;}
 button {font-size: 12px;}
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 200%;
   color: #2E2E2E;
 }
@@ -64,8 +64,8 @@ nav {
   right: 0;
   z-index: 2;
   overflow-x: hidden;
-  padding: 4rem;
-  background-color: #FBF6EF;
+  padding: 4%;
+  background-color:#FBF6EF;
 }
 .links {
   display: flex;
@@ -82,8 +82,10 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   padding-bottom: .5rem;
+  &:nth-child(n+2):hover {
+    border-bottom: #98A589 solid 1px
+  }
 }
-
 nav a:nth-child(n+2).router-link-exact-active {
   border-bottom: #98A589 solid 1px;
 }

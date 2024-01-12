@@ -3,7 +3,7 @@
     {
       "name": "PBA in Webdevlopment",
       "school": "IBA Erhvervsakademi",
-      "when": "August 2022 - ",
+      "when": "August 2022 - January 2024",
       "where": "Kolding",
       "subjects": [
         "User Experience",
@@ -31,6 +31,13 @@
   "work": [
     {
       "name": "Internship - Frontend developer",
+      "company": "Mindthemedia®",
+      "when": "August 2023 - December 2023",
+      "where": "Kolding",
+      "description": "Internship as a part of my education in Webdevelopment . Working with frontend development, coding in Nuxt.js. with TailwindCSS and the CMS’s: Contentful and Wordpress."
+    },
+    {
+      "name": "Internship - Frontend developer",
       "company": "Pensopay A/S",
       "when": "January 2022 - April 2022",
       "where": "Vejle",
@@ -56,7 +63,7 @@
       "name": "Study Council",
       "school": "IBA Erhvervsakademi",
       "where": "Kolding",
-      "when": "August 2022 - "
+      "when": "August 2022 - January 2024"
     },
     {
       "name": "Tutor",
@@ -97,6 +104,10 @@
       "level": 3
     },
     {
+      "name": "Nuxt",
+      "level": 3
+    },
+    {
       "name": "UX/UI Design",
       "level": 3
     }
@@ -113,21 +124,24 @@
     },
     {
       "name": "French",
-      "level": 2
+      "level": 1
     },
     {
       "name": "German",
-      "level": 2
+      "level": 1
     }
   ],
   "tech": [
     "Adobe Illustrator",
     "Figma",
-    "Microsoft Office",
     "GitHub",
+    "Bitbucket",
     "Visual Studio Code",
-    "Webstorm",
+    "WebStorm",
+    "PhpStorm",
     "Sanity.io",
-    "Postman"
+    "Postman",
+    "Contentful",
+    "Wordpress"
   ]
 }

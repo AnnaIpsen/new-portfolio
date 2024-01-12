@@ -4,7 +4,7 @@
       <p class="cv_heading">{{name}}</p>
       <p v-if="comment" class="comment"> {{comment}}</p>
     </section>
-    <div class="cv_heading skillDiv">
+    <div class="skillDiv">
       <div v-for="index in 5" :key="index" :class="getDivClass(index)"></div>
     </div>
   </div>
@@ -34,9 +34,11 @@ export default {
 .skills {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: .5rem;
+  margin-bottom: 10px;
   .skillDiv {
     display: flex;
     flex-direction: row;
@@ -50,10 +52,10 @@ export default {
     .colored-div {background-color: #98A589;}
   }
   .cv_heading {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    color: #2E2E2E;
-    margin-bottom: 4px;
+    color: #98A589;
+    margin: 0;
   }
   .comment {margin: 0 0 4px 0;}
 }
