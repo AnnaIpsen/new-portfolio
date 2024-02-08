@@ -36,7 +36,7 @@
     <button class="button">
       <div class="button__line"></div>
       <div class="button__line"></div>
-      <router-link to="/projects/work" class="button__text">See all my projects here</router-link>
+      <router-link to="/projects/work" class="button__text">See all my projects</router-link>
     </button>
   </div>
 </template>
