@@ -30,14 +30,14 @@
           relaxing it is. But my newest hobby is making posters in Adobe Illustrator and going for a walk
           with my camera. Exercise and fun at the same time - whats not to like?
         </p>
+        <button class="button">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <router-link to="/projects/work" class="button__text">See all my projects</router-link>
+        </button>
       </article>
       <img src="../assets/Anna-Ipsen.jpg">
     </section>
-    <button class="button">
-      <div class="button__line"></div>
-      <div class="button__line"></div>
-      <router-link to="/projects/work" class="button__text">See all my projects</router-link>
-    </button>
   </div>
 </template>
 
@@ -94,10 +94,11 @@ export default {
     cursor: pointer;
     border: none;
     background: none;
+    margin-top: 2rem;
     border-radius: 300px;
     position : relative ;
     z-index : 0 ;
-    max-width: 400px;
+    width: 100%;
     height : 56px ;
     letter-spacing : 2px ;
     transition : all .3s ease ;
