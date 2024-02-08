@@ -53,17 +53,18 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .hobby {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
 }
 .headings {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .headings h1, .headings h2{
@@ -83,6 +84,16 @@ export default {
   width: 100%;
   border-radius: 20px;
   transition: all 0.4s ease-in-out 0s;
+}
+
+@media only screen and (max-width: 844px) {
+  .hobby {
+    gap: 3rem;
+    .collage {
+      gap: .5rem;
+      .column img {margin-top: .5rem}
+    }
+  }
 }
 
 

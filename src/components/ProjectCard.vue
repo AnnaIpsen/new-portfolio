@@ -63,8 +63,10 @@ export default {
 .card section h2 {
   margin-top: 0;
 }
+.card section {width: 45%}
 .card #project {
-  width: 600px;
+  flex-shrink: 0;
+  width: 45%;
   height: auto;
   object-fit: cover ;
   border-radius: 20px;
@@ -165,6 +167,34 @@ export default {
   }
 
 
+}
+
+@media only screen and (max-width: 844px) {
+  .card, .reverse {
+    flex-direction: column-reverse !important;
+  }
+  .card {
+    align-items: normal;
+    gap: 2rem;
+    margin-bottom: 6rem;
+    section{width: 100%}
+    #project {
+      width: 100%;
+    }
+  }
+
+}
+
+@media only screen and (orientation: landscape) and (max-width: 844px) {
+  .card, .reverse {
+    flex-direction: column-reverse !important;
+  }
+  .card {
+    align-items: center;
+    gap: 2rem;
+    max-width: 600px;
+    margin-bottom: 4rem;
+  }
 }
 
 </style>

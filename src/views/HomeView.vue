@@ -30,9 +30,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .home {
-  display: flex;
+  display: flex block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -50,6 +50,24 @@ hr {
   width: 80%;
   margin-top: -1px;
   border: 1px solid #98A589;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    height: 100vh;
+    overflow: hidden;
+    justify-content: end;
+    h1 {font-size: 40px}
+    h3 {font-size: 12px}
+    #flowers {
+      height: 55vh;
+      width: auto;
+      object-position: left bottom;
+      margin-top: 3rem;
+    }
+    hr {width: 100%; margin: 0}
+
+  }
 }
 
 </style>

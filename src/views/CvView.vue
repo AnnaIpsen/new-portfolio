@@ -6,6 +6,7 @@
       <h1>CV</h1>
     </section>
     <section class="cvWrapper">
+      <img src="../assets/Anna-Ipsen-cv.jpg" id="cvImage">
       <section class="row">
         <div class="education">
           <h2>Education</h2>
@@ -111,7 +112,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .cv {
   display: flex;
   flex-direction: column;
@@ -124,6 +125,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   max-width: 100%;
+  #cvImage {display: none}
 }
 .row {
   display: flex;
@@ -153,5 +155,29 @@ export default {
 .techWrapper p {width: 8rem}
 
 img {border-radius: 20px;}
+
+@media only screen and (max-width: 844px) {
+  .cv {
+    margin: 9rem 1rem;
+    .cvWrapper {
+      flex-direction: column;
+      gap: 2rem;
+      #cvImage {
+        display: block;
+        max-height: 35rem;
+        object-fit: cover;
+        object-position: 0 10%;
+      }
+      .row {
+        max-width: 100%;
+        img {display: none}
+        .techWrapper{
+          column-gap: 2rem;
+          p {width: 10rem}
+        }
+      }
+    }
+  }
+}
 
 </style>

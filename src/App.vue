@@ -14,15 +14,20 @@
 
   <nav id="mobile">
     <section id="menu" @click="handleToggleMenu">
-      <img src="./assets/menu.svg" >
+<!--      <img src="./assets/menu.svg" >-->
+      <div class="burger" :class="{ open: menuOpen }">
+        <div class="line" id="line-1"></div>
+        <div class="line" id="line-2"></div>
+        <div class="line" id="line-3"></div>
+      </div>
     </section>
 
     <section id="navContent" :class="{ open: menuOpen }">
-      <section class="links">
-        <router-link to="/"><img src="./assets/blomsterlogo.png"></router-link>
-        <router-link to="/about">About me</router-link>
-        <router-link to="/projects">Projects</router-link>
-        <router-link to="/cv">CV</router-link>
+      <section class="links" >
+        <router-link to="/" @click="menuOpen = false"><img src="./assets/blomsterlogo.png"></router-link>
+        <router-link to="/about" @click="menuOpen = false">About me</router-link>
+        <router-link to="/projects" @click="menuOpen = false">Projects</router-link>
+        <router-link to="/cv" @click="menuOpen = false">CV</router-link>
       </section>
       <section class="logos">
         <a href="https://www.linkedin.com/in/anna-ipsen/"><img src="./assets/linkedin-logo.png"></a>
@@ -62,7 +67,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #98A589;
-  margin: 4% 20% 4% 4%;
+  margin: 4% 20rem 4% 4%;
+  overflow: hidden !important;
 }
 
 h1, h2, h3, h4, nav, button {
@@ -84,25 +90,46 @@ p {
   color: #2E2E2E;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 844px) {
   #app {margin: 0}
   #desktop {display: none}
   #mobile {
+    position: relative;
     #menu {
-      position: absolute;
+      position: fixed;
       top: 2rem;
       right: 2rem;
       z-index: 2;
       background: #98A589;
       border-radius: 100px;
-      padding: 1rem;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 1.5rem;
+      box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 
-      img {
+      .burger {
         width: 2rem;
         height: 2rem;
-        object-position: center;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        gap: 10px;
+        .line {
+          height: 3px;
+          border-radius: 50px;
+          background: white;
+          transition: all .6s cubic-bezier(0.83, 0, 0.17, 1) 0s;
+        }
+        #line-1, #line-3 {width: 100%}
+        #line-2 {width: 70%}
+        &.open {
+          #line-1 {
+            transform: translateY(13px) rotate(45deg);
+          }
+          #line-2 {opacity: 0}
+          #line-3 {
+            transform: translateY(-13px) rotate(-45deg);
+          }
+        }
       }
     }
 
@@ -121,7 +148,7 @@ p {
       gap: 4rem;
       opacity: 0;
       transform: translate(100%, 0);
-      transition: all 1s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s;
+      transition: all .6s cubic-bezier(0.83, 0, 0.17, 1) 0s;
 
       &.open {
         opacity: 1;
@@ -165,7 +192,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 845px) {
   #mobile {display: none}
   #desktop {
     width: fit-content;
@@ -178,7 +205,7 @@ p {
     right: 0;
     z-index: 2;
     overflow-x: hidden;
-    padding: 4%;
+    padding: 5rem;
     background-color:#FBF6EF;
     .links {
       display: flex;

@@ -40,7 +40,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .work {
   display: flex;
   flex-direction: column;
@@ -55,5 +55,20 @@ export default {
 
 .headings h1 {
   margin: .2rem 0;
+}
+@media only screen and (max-width: 844px) {
+  .work {
+    gap: 3rem;
+    .headings{
+      text-align: center;
+    }
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 844px) {
+  .projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 </style>

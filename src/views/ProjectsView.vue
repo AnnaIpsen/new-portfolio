@@ -1,12 +1,14 @@
 <template>
-  <div>
-      <section class="projectsNav">
-        <router-link to="/projects/work">Work projects</router-link>
-        <router-link to="/projects/hobby">Hobby projects</router-link>
-      </section>
-  </div>
-  <router-view></router-view>
-  <loadingComponent v-if="isLoading"/>
+  <section class="projects">
+    <div>
+        <section class="projectsNav">
+          <router-link to="/projects/work">Work projects</router-link>
+          <router-link to="/projects/hobby">Hobby projects</router-link>
+        </section>
+    </div>
+    <router-view></router-view>
+    <loadingComponent v-if="isLoading"/>
+  </section>
 </template>
 
 <script>
@@ -29,7 +31,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .projectsNav {
   display: flex;
   flex-direction: row;
@@ -48,5 +50,16 @@ export default {
 
 .projectsNav a.router-link-exact-active {
   border-bottom: #98A589 solid 2px;
+}
+
+@media only screen and (max-width: 844px) {
+  .projects {
+    margin: 9rem 1rem;
+    .projectsNav {
+      a {
+        padding: 1rem;
+      }
+    }
+  }
 }
 </style>
