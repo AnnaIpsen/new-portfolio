@@ -82,6 +82,7 @@ h1, h2, h3, button {
 h1 {font-size: 50px;}
 h2 {font-size: 22px;}
 h3, a {font-size: 16px;}
+h5 {font-size: 12px; font-family: "Playfair Display", sans-serif; font-weight: 400;}
 button {font-size: 12px;}
 p {
   font-family: 'Montserrat', sans-serif;

@@ -10,6 +10,7 @@
           v-for="(project, index) in projectsArray"
           :key="index"
           :projectName = "project.name"
+          :tags="project.tags"
           :projectDescription = "project.description"
           :img = "project.img"
           :gitHubUrl = "project.gitHub"

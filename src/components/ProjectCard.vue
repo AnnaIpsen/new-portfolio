@@ -2,6 +2,9 @@
   <section class="card" :class = "{ reverse : reversePosition }">
     <section>
       <h2>{{ projectName }}</h2>
+      <div class="cardTags">
+        <h5 v-for="(tag, index) in tags" :key="index">{{tag}}</h5>
+      </div>
       <p> {{ projectDescription }}</p>
       <div class="buttons">
 
@@ -28,6 +31,7 @@
 export default {
   name: "ProjectCard",
   props: {
+    tags: String,
     projectName: String,
     projectDescription: String,
     gitHubUrl: String,
@@ -55,6 +59,15 @@ export default {
   gap: 3rem;
   margin-bottom: 5rem;
 }
+  .cardTags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    h5 {
+      margin: 0;
+    }
+  }
 .reverse {
   flex-direction: row-reverse !important;
   justify-content: flex-end;
