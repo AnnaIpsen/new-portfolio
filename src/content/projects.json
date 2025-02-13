@@ -1,13 +1,6 @@
 {
   "projects": [
     {
-      "name": "Mindthemedia®",
-      "tags": ["Frontend development"],
-      "description": "My bachelorproject in the webdeveloper education, where my internship company provided the case. The task was to create a new website for the company. In this project, I wasn't directly involved in the design but developed the website based on a design provided by the company's designer. I coded in Nuxt 3 with Contentful as the CMS, and TailwindCSS was used for styling. My focus in the bachelor project has been on the interaction between animations and user experience.",
-      "demo": "https://fluffy-chimera-6aaa56.netlify.app/",
-      "img": "mindthemedia.png"
-    },
-    {
       "name": "Vejle Jiu Jitsu Klub",
       "tags": ["Design"],
       "description": "I have worked on a design for Vejle Jiu Jitsu club's website. The focus here has been on making it stand out from other martial arts club websites. Additionally, it should be user-friendly, allowing users to easily access the necessary information they need. The use of images and video has been incorporated to showcase to the user what the club offers and who they are.",
